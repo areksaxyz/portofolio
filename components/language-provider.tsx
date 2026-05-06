@@ -90,7 +90,7 @@ const dictionary: Dictionary = {
       "The public Google Bug Hunters profile confirms profile metadata, leaderboard rank, and awards.",
     "google.status": "Google VRP status",
     "google.statusDescription":
-      "Private valid Google VRP report. Fixed and rewarded by Google, represented with public profile evidence.",
+      "Private valid Google VRP report. Fixed and rewarded by Google, represented through public profile signals.",
     "google.profile": "Profile",
     "google.country": "Country",
     "google.openProfile": "Open profile",
@@ -99,7 +99,7 @@ const dictionary: Dictionary = {
     "google.publicAwardsDescription":
       "Awards visible on the public Google Bug Hunters profile.",
     "google.omitted":
-      "The profile evidence highlights verified status, awards, and public metadata from Google Bug Hunters.",
+      "The Google Bug Hunters profile highlights verified status, awards, and public metadata.",
     "certificates.kicker": "Certificates",
     "certificates.title": "Vulnerability finding acknowledgements.",
     "certificates.description":
@@ -233,7 +233,7 @@ const dictionary: Dictionary = {
       "Profil publik Google Bug Hunters mengonfirmasi metadata profil, rank leaderboard, dan awards.",
     "google.status": "Status Google VRP",
     "google.statusDescription":
-      "Private valid Google VRP report. Fixed and rewarded by Google, direpresentasikan dengan bukti profil publik.",
+      "Private valid Google VRP report. Fixed and rewarded by Google, direpresentasikan melalui sinyal profil publik.",
     "google.profile": "Profil",
     "google.country": "Negara",
     "google.openProfile": "Buka profil",
@@ -242,7 +242,7 @@ const dictionary: Dictionary = {
     "google.publicAwardsDescription":
       "Awards yang terlihat di profil publik Google Bug Hunters.",
     "google.omitted":
-      "Bukti profil menampilkan status terverifikasi, awards, dan metadata publik dari Google Bug Hunters.",
+      "Profil Google Bug Hunters menampilkan status terverifikasi, awards, dan metadata publik.",
     "certificates.kicker": "Sertifikat",
     "certificates.title": "Pengakuan atas temuan kerentanan.",
     "certificates.description":
