@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Github, Linkedin, MapPin, ShieldCheck } from "lucide-react";
 import { T } from "@/components/language-provider";
@@ -65,19 +64,7 @@ export function HeroSection() {
         </Reveal>
 
         <Reveal delay={0.12} className="lg:justify-self-end">
-          <div className="relative mx-auto w-full max-w-[520px] lg:mx-0">
-            <div className="overflow-hidden rounded-2xl border bg-card shadow-soft">
-              <Image
-                src={profile.avatar}
-                alt="Muhamad Arga Reksapati profile photo"
-                width={1280}
-                height={1600}
-                sizes="(min-width: 1024px) 520px, 100vw"
-                className="aspect-[4/5] w-full object-cover object-top"
-                priority
-              />
-            </div>
-            <div className="interactive-card -mt-16 mx-4 rounded-2xl border bg-card/95 p-4 shadow-soft backdrop-blur sm:-mt-20 sm:mx-8 sm:p-5">
+          <div className="interactive-card mx-auto w-full max-w-[520px] rounded-2xl border bg-card/90 p-5 shadow-soft backdrop-blur lg:mx-0">
               <div className="mb-4 flex items-center justify-between gap-3">
                 <div>
                   <p className="text-sm text-muted-foreground">
@@ -107,7 +94,6 @@ export function HeroSection() {
                 </div>
               ))}
               </div>
-            </div>
           </div>
         </Reveal>
       </div>
