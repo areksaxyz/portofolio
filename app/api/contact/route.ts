@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
         ok: false,
         fallback: true,
         message:
-          "Email service is not configured yet. Opening an email draft instead."
+          "Automatic email delivery is not active yet. Opening an email draft instead."
       },
       { status: 503 }
     );
@@ -91,7 +91,7 @@ export async function POST(request: NextRequest) {
         ok: false,
         fallback: true,
         message:
-          "Email delivery failed. Opening an email draft instead."
+          "Automatic email delivery failed. Opening an email draft instead."
       },
       { status: 502 }
     );

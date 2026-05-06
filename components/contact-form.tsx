@@ -64,7 +64,7 @@ export function ContactForm() {
           setStatus({
             type: "success",
             message:
-              "Email service is not configured yet, so a mail draft was opened instead."
+              "Draft email sudah dibuka agar pesan tetap bisa dikirim langsung."
           });
           return;
         }
@@ -83,7 +83,7 @@ export function ContactForm() {
       setStatus({
         type: "success",
         message:
-          "The contact service is unreachable right now, so a mail draft was opened instead."
+          "Draft email sudah dibuka karena layanan kontak sedang tidak dapat dijangkau."
       });
     } finally {
       setIsSubmitting(false);
