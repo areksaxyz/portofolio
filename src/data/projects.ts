@@ -9,7 +9,7 @@ export const projects = [
   {
     title: "Google VRP research",
     description:
-      "Private valid Google VRP report. Fixed and rewarded by Google. Sensitive details intentionally omitted because the report is private.",
+      "Private valid Google VRP report. Fixed and rewarded by Google, represented through public profile and award signals.",
     tags: ["Google VRP", "bug bounty", "responsible disclosure"],
     href: "https://bughunters.google.com/profile/e2461b18-a672-4e62-bc32-f86f1fdf8427"
   },

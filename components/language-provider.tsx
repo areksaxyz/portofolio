@@ -39,15 +39,15 @@ const dictionary: Dictionary = {
     "about.kicker": "About",
     "about.title": "Security research with clear impact and careful disclosure.",
     "about.description":
-      "I focus on finding issues that matter, explaining them in a way engineering teams can reproduce, and keeping private details out of public material unless disclosure has been approved.",
+      "I focus on finding issues that matter, explaining security impact clearly, and helping teams reproduce and fix vulnerabilities through responsible disclosure.",
     "about.body":
-      "I am Muhamad Arga Reksapati, known as @areksaxyz and @nobcoder, a security researcher and bug bounty hunter based in Bandung, Indonesia. My public work includes official curl CVE credits and a public Google Bug Hunters profile. For private VRP work, I keep sensitive report content intentionally omitted.",
+      "I am Muhamad Arga Reksapati, known as @areksaxyz and @nobcoder, a security researcher and bug bounty hunter based in Bandung, Indonesia. My public work includes official curl CVE credits, a public Google Bug Hunters profile, and institutional acknowledgements for reported vulnerabilities.",
     "about.verification": "Verification posture",
     "note.curl": "curl CVE credits are sourced from official curl security advisories.",
     "note.google":
       "Google Bug Hunters statistics are public profile data visible from the Google Bug Hunters profile endpoint.",
     "note.private":
-      "Google VRP sensitive report details are intentionally omitted when the underlying report is private.",
+      "Private VRP work is represented through public status, awards, and acknowledgement signals.",
     "focus.source": "Source-code security review",
     "focus.bounty": "Bug bounty research",
     "focus.cloud": "Cloud information disclosure",
@@ -61,13 +61,13 @@ const dictionary: Dictionary = {
     "highlights.kicker": "Security Highlights",
     "highlights.title": "Publicly verifiable credibility signals.",
     "highlights.description":
-      "Only public, official, or credible sources are represented here. Private report contents are deliberately excluded.",
+      "Public, official, and credible sources are represented here, with impact summaries where disclosure is appropriate.",
     "highlights.curl.title": "Official curl CVE credits",
     "highlights.curl.description":
       "Four public curl advisories credit Muhamad Arga Reksapati for vulnerability reports across proxy auth, credential leakage, and state confusion.",
     "highlights.google.title": "Google VRP work",
     "highlights.google.description":
-      "Private valid Google VRP report. Fixed and rewarded by Google. Sensitive details intentionally omitted because the report is private.",
+      "Private valid Google VRP report. Fixed and rewarded by Google, represented through public profile and award signals.",
     "highlights.profile.title": "Public profile signals",
     "highlights.profile.description":
       "Google Bug Hunters profile shows rank, awards, public report count, country, and joined date as public profile metadata.",
@@ -87,10 +87,10 @@ const dictionary: Dictionary = {
     "google.kicker": "Google Bug Hunters / VRP",
     "google.title": "Private valid Google VRP work, represented safely.",
     "google.description":
-      "The public Google Bug Hunters profile confirms profile metadata and awards. Private report details are not reproduced here.",
+      "The public Google Bug Hunters profile confirms profile metadata, leaderboard rank, and awards.",
     "google.status": "Google VRP status",
     "google.statusDescription":
-      "Private valid Google VRP report. Fixed and rewarded by Google. Sensitive details intentionally omitted because the report is private.",
+      "Private valid Google VRP report. Fixed and rewarded by Google, represented with public profile evidence.",
     "google.profile": "Profile",
     "google.country": "Country",
     "google.openProfile": "Open profile",
@@ -99,14 +99,14 @@ const dictionary: Dictionary = {
     "google.publicAwardsDescription":
       "Awards visible on the public Google Bug Hunters profile.",
     "google.omitted":
-      "Report contents, raw reproduction details, internal project identifiers, and sensitive evidence are not included.",
+      "The profile evidence highlights verified status, awards, and public metadata from Google Bug Hunters.",
     "certificates.kicker": "Certificates",
     "certificates.title": "Vulnerability finding acknowledgements.",
     "certificates.description":
       "Certificates from institutions where reported findings helped improve website and system security.",
     "certificates.date": "Issued",
     "certificates.safeNote":
-      "Finding details are intentionally omitted to keep the affected systems safe.",
+      "Each certificate is paired with a concise impact summary from the reported finding.",
     "certificates.proof":
       "The certificate acts as public recognition that a vulnerability was found and reported responsibly.",
     "timeline.kicker": "Timeline",
@@ -114,7 +114,7 @@ const dictionary: Dictionary = {
     "timeline.description":
       "A concise view of institutional acknowledgements, public profile signals, and public advisory credits.",
     "timeline.safeNote":
-      "Timeline summaries focus on impact and recognition; reproduction steps and sensitive evidence remain omitted.",
+      "Timeline summaries focus on impact, recognition, and responsible disclosure milestones.",
     "methodology.kicker": "Methodology",
     "methodology.title": "Structured research, small proofs, clean reporting.",
     "methodology.description":
@@ -182,15 +182,15 @@ const dictionary: Dictionary = {
     "about.kicker": "Tentang",
     "about.title": "Riset keamanan dengan impact jelas dan disclosure yang hati-hati.",
     "about.description":
-      "Saya fokus menemukan isu yang berdampak, menjelaskannya agar mudah direproduksi tim engineering, dan tidak menampilkan detail private kecuali sudah boleh dipublikasikan.",
+      "Saya fokus menemukan isu yang berdampak, menjelaskan impact keamanan dengan jelas, dan membantu tim mereproduksi serta memperbaiki kerentanan melalui responsible disclosure.",
     "about.body":
-      "Saya Muhamad Arga Reksapati, dikenal sebagai @areksaxyz dan @nobcoder, security researcher dan bug bounty hunter berbasis di Bandung, Indonesia. Karya publik saya mencakup kredit CVE resmi di curl dan profil publik Google Bug Hunters. Untuk pekerjaan VRP private, detail sensitif report sengaja tidak ditampilkan.",
+      "Saya Muhamad Arga Reksapati, dikenal sebagai @areksaxyz dan @nobcoder, security researcher dan bug bounty hunter berbasis di Bandung, Indonesia. Karya publik saya mencakup kredit CVE resmi di curl, profil publik Google Bug Hunters, dan pengakuan institusi atas laporan kerentanan.",
     "about.verification": "Posisi verifikasi",
     "note.curl": "Kredit CVE curl bersumber dari advisory keamanan resmi curl.",
     "note.google":
       "Statistik Google Bug Hunters adalah data profil publik dari endpoint profil Google Bug Hunters.",
     "note.private":
-      "Detail sensitif Google VRP sengaja tidak ditampilkan ketika report bersifat private.",
+      "Pekerjaan VRP private direpresentasikan melalui status publik, awards, dan sinyal pengakuan.",
     "focus.source": "Review keamanan source code",
     "focus.bounty": "Riset bug bounty",
     "focus.cloud": "Information disclosure di cloud",
@@ -204,13 +204,13 @@ const dictionary: Dictionary = {
     "highlights.kicker": "Highlight Keamanan",
     "highlights.title": "Sinyal kredibilitas yang bisa diverifikasi publik.",
     "highlights.description":
-      "Hanya sumber publik, resmi, atau kredibel yang ditampilkan di sini. Isi report private sengaja dikecualikan.",
+      "Sumber publik, resmi, dan kredibel ditampilkan di sini, disertai ringkasan impact ketika disclosure memungkinkan.",
     "highlights.curl.title": "Kredit CVE resmi curl",
     "highlights.curl.description":
       "Empat advisory publik curl mencantumkan Muhamad Arga Reksapati untuk laporan vulnerability terkait proxy auth, credential leakage, dan state confusion.",
     "highlights.google.title": "Pekerjaan Google VRP",
     "highlights.google.description":
-      "Private valid Google VRP report. Fixed and rewarded by Google. Detail sensitif sengaja tidak ditampilkan karena report bersifat private.",
+      "Private valid Google VRP report. Fixed and rewarded by Google, direpresentasikan melalui profil publik dan award.",
     "highlights.profile.title": "Sinyal profil publik",
     "highlights.profile.description":
       "Profil Google Bug Hunters menampilkan rank, awards, jumlah public report, country, dan joined date sebagai metadata publik.",
@@ -230,10 +230,10 @@ const dictionary: Dictionary = {
     "google.kicker": "Google Bug Hunters / VRP",
     "google.title": "Pekerjaan Google VRP private yang ditampilkan secara aman.",
     "google.description":
-      "Profil publik Google Bug Hunters mengonfirmasi metadata profil dan awards. Detail report private tidak direproduksi di sini.",
+      "Profil publik Google Bug Hunters mengonfirmasi metadata profil, rank leaderboard, dan awards.",
     "google.status": "Status Google VRP",
     "google.statusDescription":
-      "Private valid Google VRP report. Fixed and rewarded by Google. Detail sensitif sengaja tidak ditampilkan karena report bersifat private.",
+      "Private valid Google VRP report. Fixed and rewarded by Google, direpresentasikan dengan bukti profil publik.",
     "google.profile": "Profil",
     "google.country": "Negara",
     "google.openProfile": "Buka profil",
@@ -242,14 +242,14 @@ const dictionary: Dictionary = {
     "google.publicAwardsDescription":
       "Awards yang terlihat di profil publik Google Bug Hunters.",
     "google.omitted":
-      "Isi report, detail reproduksi mentah, internal project identifier, dan bukti sensitif tidak disertakan.",
+      "Bukti profil menampilkan status terverifikasi, awards, dan metadata publik dari Google Bug Hunters.",
     "certificates.kicker": "Sertifikat",
     "certificates.title": "Pengakuan atas temuan kerentanan.",
     "certificates.description":
       "Sertifikat dari institusi tempat temuan yang dilaporkan membantu meningkatkan keamanan website dan sistem.",
     "certificates.date": "Diterbitkan",
     "certificates.safeNote":
-      "Detail temuan sengaja tidak ditampilkan agar sistem terdampak tetap aman.",
+      "Setiap sertifikat disertai ringkasan impact dari temuan yang dilaporkan.",
     "certificates.proof":
       "Sertifikat ini menjadi pengakuan publik bahwa kerentanan ditemukan dan dilaporkan secara bertanggung jawab.",
     "timeline.kicker": "Timeline",
@@ -257,7 +257,7 @@ const dictionary: Dictionary = {
     "timeline.description":
       "Ringkasan pengakuan institusi, sinyal profil publik, dan kredit advisory publik.",
     "timeline.safeNote":
-      "Ringkasan timeline berfokus pada impact dan pengakuan; langkah reproduksi serta bukti sensitif tetap tidak ditampilkan.",
+      "Ringkasan timeline berfokus pada impact, pengakuan, dan milestone responsible disclosure.",
     "methodology.kicker": "Metodologi",
     "methodology.title": "Riset terstruktur, proof kecil, reporting bersih.",
     "methodology.description":
