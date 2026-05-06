@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Github, Linkedin, MapPin, ShieldCheck } from "lucide-react";
 import { T } from "@/components/language-provider";
@@ -11,7 +12,7 @@ export function HeroSection() {
     <section className="relative overflow-hidden border-b">
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,hsl(var(--border))_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border))_1px,transparent_1px)] bg-[size:72px_72px] opacity-30" />
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_35%_20%,hsl(var(--primary)/0.18),transparent_36%),radial-gradient(ellipse_at_80%_60%,hsl(var(--accent)/0.10),transparent_32%)]" />
-      <div className="container grid min-h-[calc(100svh-4rem)] items-center gap-10 py-10 sm:py-14 lg:grid-cols-[minmax(0,1fr)_minmax(360px,520px)] lg:gap-14 lg:py-16">
+      <div className="container grid min-h-[calc(100svh-4rem)] items-center gap-8 py-10 sm:py-12 lg:grid-cols-[minmax(0,1fr)_minmax(320px,430px)] lg:gap-12">
         <Reveal>
           <Badge variant="success" className="mb-5">
             <T id="hero.badge" />
@@ -19,10 +20,10 @@ export function HeroSection() {
           <p className="mb-3 text-sm font-medium text-muted-foreground sm:text-base">
             {profile.aliases.map((alias) => `@${alias}`).join(" / ")}
           </p>
-          <h1 className="max-w-4xl text-4xl font-semibold tracking-normal text-foreground sm:text-6xl lg:text-7xl">
+          <h1 className="max-w-4xl text-4xl font-semibold tracking-normal text-foreground sm:text-5xl lg:text-6xl">
             {profile.name}
           </h1>
-          <p className="mt-4 max-w-2xl text-2xl font-medium leading-tight text-primary sm:text-3xl">
+          <p className="mt-4 max-w-2xl text-xl font-medium leading-tight text-primary sm:text-2xl">
             <T id="hero.title" />
           </p>
           <p className="mt-5 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">
@@ -64,7 +65,19 @@ export function HeroSection() {
         </Reveal>
 
         <Reveal delay={0.12} className="lg:justify-self-end">
-          <div className="interactive-card mx-auto w-full max-w-[520px] rounded-2xl border bg-card/90 p-5 shadow-soft backdrop-blur lg:mx-0">
+          <div className="mx-auto w-full max-w-[430px] lg:mx-0">
+            <div className="overflow-hidden rounded-2xl border bg-card shadow-soft">
+              <Image
+                src={profile.avatar}
+                alt="Muhamad Arga Reksapati profile photo"
+                width={1280}
+                height={1600}
+                sizes="(min-width: 1024px) 430px, 92vw"
+                className="aspect-[4/4.7] w-full object-cover object-[50%_20%]"
+                priority
+              />
+            </div>
+            <div className="interactive-card mt-4 rounded-2xl border bg-card/90 p-4 shadow-soft backdrop-blur">
               <div className="mb-4 flex items-center justify-between gap-3">
                 <div>
                   <p className="text-sm text-muted-foreground">
@@ -94,6 +107,7 @@ export function HeroSection() {
                 </div>
               ))}
               </div>
+            </div>
           </div>
         </Reveal>
       </div>
